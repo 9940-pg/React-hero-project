@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 
+
 const Hero = () => {
   const [mobileOpen, setMobileOpen] = useState(false);
   const statsRef = useRef([]);
@@ -41,7 +42,7 @@ const Hero = () => {
   return (
     <div
       className="relative min-h-screen bg-cover bg-center bg-no-repeat"
-      style={{ backgroundImage: "url('src/assets/1.jpg')", backgroundPosition: "center -3%" }}
+      style={{ backgroundImage: "url('hero/1.jpg')", backgroundPosition: "center -3%" }}
     >
       {/* Overlay */}
       <div className="absolute inset-0 bg-black/30"></div>
